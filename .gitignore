@@ -1,0 +1,39 @@
+# Object files
+*.o
+
+# Object files on Win
+*.obj
+*.exp
+
+# Libraries
+*.lib
+*.a
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# bin dir
+bin/
+
+#auto-save and backup files
+*~
+*#
+
+
+
+
+#python compiled file
+*.pyc
+python/build/
+
+
+#class
+*.class

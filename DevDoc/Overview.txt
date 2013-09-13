@@ -1,0 +1,84 @@
+Overview of HybridIM
+
+1 Goals
+
+Work On Hybrid Mode of acentric and centric, acentric like IP Message(or FeiQ), centric like IRC.
+User Operate like irc(e.g. /list /history /help /quit /msg /groups /group) 
+
+2 Design Architecture
+
+2.1 Acentric Architecture
+LAN
+
+
+3 Features
+
+3.1 
+modul architecture dynamic load modul
+command is data drive
+
+
+3.2 Server Side
+centric mode determine whether allow launch multiple clients
+
+
+3.3 Client Side
+
+
+acentric mode act like IP Message(or FeiQ)
+centric mode act like IRC Client
+input completion(e.g. user name, commands) by tab key
+
+both client and server  change config file effective background nearly instantly
+
+command history support
+
+
+store message on sqlite at client side.
+
+
+
+
+
+
+
+
+4 Libries
+
+4.1 Libries On Server Side
+boost 
+boost.Asio http://think-async.com/Asio
+
+
+4.2 Libries On Client Side 
+boost
+
+5 Thrid-Party Tools
+
+5.1 Thrid-Party Tools Server Side
+
+
+5.2 Thrid-Party Tools Client Side
+
+Credits System(Level System)
+Assignment System(Everyday Assignment  gain credits)
+Event System(Festival, Sepical Day)
+
+
+
+6 DataBase(RDBMS)
+
+6.1 Database On Server Side
+MySQL http://www. mysql.com http://dev.mysql.com
+
+6.2 Database On Client Side
+(RDBMS-embeded) database sqlite http://sqlite.org
+
+7 Operation and maintenance Tools
+dynamic change config on server side
+operations(ban, kick) on client
+
+
+8 Build Tool Set
+
+CMake (New BSD License) http://www.cmake.org

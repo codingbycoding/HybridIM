@@ -1,0 +1,3 @@
+* HybridIM Dev Schedule.
+** TODO Document HybyidIM Goals, Features, Design Architecture and Libries, Middlewares, Thrid-Party Tools Scheduled to Use.
+   SCHEDULED: <2013-09-13 ÖÜÎå> 
